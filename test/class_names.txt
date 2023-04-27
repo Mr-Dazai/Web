@@ -1,0 +1,7 @@
+<Body>
+  container-lg =home-container
+    <Header>
+       row justify-content-between= top-row-content
+        col-md-6 col-12= top-row-name
+          text-md-left text-center= name-content
+        col-md-6 col-12= top-row-icon
