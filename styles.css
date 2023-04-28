@@ -79,7 +79,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 766px) {
   .main-header {
     padding-top: 25px;
     max-height: 50px;
@@ -98,7 +98,7 @@ nav {
   float: right;
   width: 100%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 766px) {
   nav {
     width: 100%;
   }
@@ -109,7 +109,7 @@ nav ul {
   text-align: right;
   float: right;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 766px) {
   nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
@@ -123,7 +123,7 @@ nav ul li {
   margin-left: 35px;
   line-height: 1.5;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 766px) {
   nav ul li {
     width: 100%;
     padding: 7px 0;
@@ -160,7 +160,7 @@ nav li a:hover:before {
   left: 0;
 }
 .mobile-toggle {
-  display: block;
+  display: none;
   cursor: pointer;
   font-size: 20px;
   position: absolute;
@@ -168,9 +168,9 @@ nav li a:hover:before {
   top: 0px;
   width: 30px;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 766px) {
   .mobile-toggle {
-    display: none;
+    display: block;
   }
 }
 .mobile-toggle i {
@@ -299,7 +299,7 @@ nav li a:hover:before {
 .pad-top {
   padding-top: 50px;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 766px) {
   .project-content {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
