@@ -299,7 +299,7 @@ nav li a:hover:before {
 .pad-top {
   padding-top: 50px;
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 992px) {
   .project-content {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
