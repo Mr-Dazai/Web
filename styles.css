@@ -92,6 +92,9 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+i {
+  font-size: 25px;
+}
 /*
 a:hover {
   color: #0056b3;
@@ -391,7 +394,7 @@ nav li a:hover:before {
   justify-content: left !important;
 }
 .content-text-left {
-  text-align: left;
+  text-align: center;
 }
 .content-text-right {
   text-align: right;
@@ -433,6 +436,9 @@ nav li a:hover:before {
   }
   .pad-top {
     padding-top: 200px;
+  }
+  .content-text-left {
+    text-align: left;
   }
 }
 
