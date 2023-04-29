@@ -539,6 +539,7 @@ nav li a:hover:before {
   height: 40px;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: nowrap;
 }
 
 .intro-right {
